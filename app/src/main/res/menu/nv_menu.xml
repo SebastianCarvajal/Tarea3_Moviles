@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:id="@+id/menunavview">
+        <item android:title="Inicio"
+            android:id="@+id/Umenu_section_1"/>
+
+        <item android:title=""
+            android:id="@+id/Umenu_section_2"/>
+        <item android:title=""
+            android:id="@+id/Umenu_section_3" />
+    </group>
+</menu>

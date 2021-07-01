@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C04B04"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:background="#AD9AA6"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:translationY="200dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIENVENIDO"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:translationY="24dp"
+            app:backgroundTint="#0A163C" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese Usuario Registrado"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:translationY="24dp" />
+
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif"
+            android:hint="Usuario"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="#191818"
+            android:textColorHint="#353434"
+            android:textSize="18sp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="#191818"
+            android:textColorHint="#353434"
+            android:textSize="18sp"
+            android:translationY="20dp" />
+
+        <Button
+            android:id="@+id/btn_log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#045951"
+            android:elevation="5dp"
+            android:fontFamily="sans-serif"
+            android:text="INGRESAR"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:translationY="20dp"
+            app:backgroundTint="#F04B04" />
+
+    </LinearLayout>
+
+</RelativeLayout>
